@@ -1,0 +1,15 @@
+# 仮想環境
+whisper-venv/
+
+# 出力ファイル
+audio/
+transcripts/
+
+# Python キャッシュ
+__pycache__/
+*.pyc
+
+# その他
+*.log
+.DS_Store
+
