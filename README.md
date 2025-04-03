@@ -51,7 +51,7 @@ https://existential.audio/blackhole/
 普段メインで使ってる出力デバイスと、文字起こし用の仮想オーディオデバイスの複数に対して音声を出力する設定を行う。
 
 1. mac の **Audio MIDI Setup** を開く。
-2. + をクリックし、**Create Multi-Output Device** をクリック。
+2. \+ をクリックし、**Create Multi-Output Device** をクリック。
 3. メインの出力先と "BlackHole 2ch" にチェックを入れる。
 4. **System Settings** を開き、Output にて上記で作成したデバイスを選択する。
 
@@ -65,7 +65,7 @@ chmod +x bin/mtg-transcriber
 
 - パスを通す
 
-.zshrc, .bashrc などに以下を追加する。
+.zshrc, .bashrc などに以下を追加する。(/path/to の部分は各々のダウンロードしたディレクトリパスに合わせてください)
 
 ```bash
 export PATH="$HOME/path/to/mtg-transcriber/bin:$PATH"
